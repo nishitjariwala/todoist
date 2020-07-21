@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "957397782116",
+    "firebase_url": "https://todolist-b356a.firebaseio.com",
+    "project_id": "todolist-b356a",
+    "storage_bucket": "todolist-b356a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957397782116:android:8b56e7b820bb3c6fca5971",
+        "android_client_info": {
+          "package_name": "co.appbrewery.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957397782116-e5t26qrr2rienh8d3l02af8dt7t3uucp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDEYznwpvZYwv8UhECpWMo7yRRO3lwq7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957397782116-e5t26qrr2rienh8d3l02af8dt7t3uucp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+//                if(repeat){
+//
+//                  DateTime Start = start.add(Duration(days: duration));
+//                  DateTime End = end.add(Duration(days: duration));
+//
+//                  _firestore.collection('dashBoard').add({
+//                    'title': title,
+//                    'desc': desc,
+//                    'start': Start,
+//                    'end': End,
+//                    'start_time': Start_time,
+//                    'end_time': End_time,
+//                    'category': category,
+//                    'user': email,
+//                    'date': date,
+//                    'status': "null",
+//                    'repeat': status,
+//                    'duration': duration,
+//                  });
+//                  Map<String,bool> data =<String,bool>{
+//                    'title': title,
+//                    'repeat':false,
+//                  };
+//
+//                  _firestore.collection('userInformation').document(ref).updateData(data).whenComplete((){
+//                    print ("Edited Successfully");
+//
+//                  }).catchError((e)=>print(e));
+//
+//                }
+
+
+
+ _firestore.collection('dashBoard').add({
+                    'title': title,
+                    'desc': desc,
+                    'start': Start,
+                    'end': End,
+                    'start_time': Start_time,
+                    'end_time': End_time,
+                    'category': category,
+                    'user': email,
+                    'date': d,
+                    'status': "null",
+                    'repeat': true,
+                    'duration': duration,
+                  });

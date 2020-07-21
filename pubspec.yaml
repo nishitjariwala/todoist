@@ -1,0 +1,45 @@
+name: flash_chat
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0<3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core:
+  firebase_auth: ^0.15.5+2
+  cloud_firestore: ^0.13.4+1
+  modal_progress_hud: ^0.1.3
+  flutter_circular_chart: ^0.1.0
+  flutter_datetime_picker: 1.2.5
+  flutter_emoji: ^2.2.1+1
+  font_awesome_flutter: ^8.8.1
+  datetime_picker_formfield: ^1.0.0
+  flutter_datetime_formfield: ^0.1.2
+  custom_switch: ^0.0.1
+  firebase_messaging: ^6.0.13
+
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - images/
+  -
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: asset/Roboto-Black.ttf
+    - family: Monoton_Regular1
+      fonts:
+        - asset: asset/OleoScript-Bold.ttf
+
